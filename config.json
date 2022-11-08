@@ -1,0 +1,79 @@
+{
+  "name": "Arthur Alexi",
+  "job": "Estudante de Engenharia de Softwate",
+  "github": "ArthurAlexi",
+  "banner": "https://img.freepik.com/free-vector/techno-banner-design_1048-10778.jpg?w=996&t=st=1667905819~exp=1667906419~hmac=8727a69173c008f647aa2586bb273d0c8e2965936eeda2c3d6a873fa279e42dc",
+  "playlists": {
+    "Back-End": [
+      {
+        "title": "Aula 01 - O que é API RESTFul, Spring Boot e MVC (Apresentando o Projeto)",
+        "url": "https://www.youtube.com/watch?v=YcO-Q6yozmU&list=PLiXotHlANc8ptwP6wajo73OZo9Nh5i597&index=1",
+        "thumb": "https://img.youtube.com/vi/YcO-Q6yozmU/hqdefault.jpg"
+      },
+      {
+        "title": "Curso de Node.JS - O que é Node.JS #01",
+        "url": "https://www.youtube.com/watch?v=LLqq6FemMNQ&list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B&index=1",
+        "thumb": "https://img.youtube.com/vi/LLqq6FemMNQ/hqdefault.jpg"
+      },
+      {
+        "title": "Node JS: Construindo CRUDs com file system focando em serialização e JSON",
+        "url": "https://www.youtube.com/watch?v=dvd3pNYh7So",
+        "thumb": "https://img.youtube.com/vi/dvd3pNYh7So/hqdefault.jpg"
+      },
+      {
+        "title": "Node JS: Construindo CRUDs com file system focando em serialização e JSON",
+        "url": "https://www.youtube.com/watch?v=8q36rNS5yVo",
+        "thumb": "https://img.youtube.com/vi/8q36rNS5yVo/hqdefault.jpg"
+      },
+      {
+        "title": "O que é o Java? #HipstersPontoTube",
+        "url": "https://www.youtube.com/watch?v=90NcVNsKGik",
+        "thumb": "https://img.youtube.com/vi/90NcVNsKGik/hqdefault.jpg"
+      },
+      {
+        "title": "O que é Machine Learning? #HipstersPontoTube",
+        "url": "https://www.youtube.com/watch?v=Iuz_jc96bQk",
+        "thumb": "https://img.youtube.com/vi/Iuz_jc96bQk/hqdefault.jpg"
+      },
+      {
+        "title": "A MELHOR linguagem de programação com Fabio Akita | #HipstersPontoTube",
+        "url": "https://www.youtube.com/watch?v=imB0QVoNrGc",
+        "thumb": "https://img.youtube.com/vi/imB0QVoNrGc/hqdefault.jpg"
+      },
+      {
+        "title": "Top 5 libs que todo aplicativo Android deve ter com Alex Felipe | #HipstersPontoTube",
+        "url": "https://www.youtube.com/watch?v=ldRbnpy-qQs",
+        "thumb": "https://img.youtube.com/vi/ldRbnpy-qQs/hqdefault.jpg"
+      },
+      {
+        "title": "O que é o C#? #HipstersPontoTube",
+        "url": "https://www.youtube.com/watch?v=0JWMVc1CqpA",
+        "thumb": "https://img.youtube.com/vi/0JWMVc1CqpA/hqdefault.jpg"
+      }
+    ],
+    "Hack": [
+      {
+        "title": "COMO SER UM HACKER: Dicas pra quem quer começar na área da segurança da informação",
+        "url": "https://www.youtube.com/watch?v=ff0llG4atYs",
+        "thumb": "https://img.youtube.com/vi/ff0llG4atYs/hqdefault.jpg"
+      },
+      {
+        "title": "COMO HACKEAR (ft. @Gabriel Pato )",
+        "url": "https://www.youtube.com/watch?v=vwoqx_JqOWI",
+        "thumb": "https://img.youtube.com/vi/vwoqx_JqOWI/hqdefault.jpg"
+      }
+    ]
+  },
+  "favoritos": [
+    {
+      "nome": "Teste",
+      "imagem" : "",
+      "url" : "url"
+    },
+    {
+      "nome": "Teste",
+      "imagem" : "",
+      "url" : "url"
+    }
+  ]
+}
