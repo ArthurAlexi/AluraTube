@@ -21,15 +21,19 @@ const StyledHeader = styled.div`
         Height: 230px
     }
 `;
+const StyledBanner = styled.div`
+
+    background-image: url(${({bg})=> bg});
+   // background-image: url(${config.banner});
+   height: 230px;
+`;
 
 export default function Header(props) {
 
     return (
         <StyledHeader>
 
-            <div className="banner">
-                <img></img>
-            </div>
+            <StyledBanner bg={config.bg}/>
             <section className="user-info">
 
                 <img src={`https://github.com/${config.github}.png`} />
