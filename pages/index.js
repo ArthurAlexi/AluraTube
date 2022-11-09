@@ -1,5 +1,4 @@
 import config from "../config.json";
-import { CSSReset } from "../src/components/CSSReset";
 import Favoritos from "../src/components/Favoritos";
 import Header from "../src/components/Header";
 import Menu from "../src/components/Menu";
@@ -12,7 +11,7 @@ function HomePage() {
     //Prop Drilling
     return (
         <>
-            <CSSReset />
+            
             <div style={{
                 display: "flex",
                 flexDirection: "column",
