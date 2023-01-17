@@ -14,20 +14,20 @@ function HomePage() {
     const [playlists, setPlaylist] = React.useState({})
     const service = videoService()
 
-    React.useEffect(() => {
-        service.getAllVideos()
-            .then((dados) => {
-                // console.log(dados.data)
-                const novasPlaylists = { ...playlists }
-                dados.data.forEach((video) => {
-                    if (!novasPlaylists[video.playlist]) {
-                        novasPlaylists[video.playlist] = []
-                    }
-                    novasPlaylists[video.playlist]?.push(video)
-                })
-                setPlaylist(novasPlaylists)
-            })
-    }, [playlists])
+    // React.useEffect(() => {
+    //     service.getAllVideos()
+    //         .then((dados) => {
+    //             // console.log(dados.data)
+    //             const novasPlaylists = { ...playlists }
+    //             dados.data.forEach((video) => {
+    //                 if (!novasPlaylists[video.playlist]) {
+    //                     novasPlaylists[video.playlist] = []
+    //                 }
+    //                 novasPlaylists[video.playlist]?.push(video)
+    //             })
+    //             setPlaylist(novasPlaylists)
+    //         })
+    // }, [playlists])
     //Aqui as variáveis que caso mude, rechama a função do primeiro parâmetro
 
 
@@ -43,7 +43,7 @@ function HomePage() {
 
                 <Menu valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro}></Menu>
                 <Header />
-                <Timeline searchValue={valorDoFiltro} playlists={playlists}></Timeline>
+                <Timeline searchValue={valorDoFiltro} playlists={config.playlists}></Timeline>
                 {/*<Favoritos></Favoritos>*/}
             </div>
         </>
